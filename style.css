@@ -1,8 +1,9 @@
 main{
-    background-color: #111;
+    background-color: #1C1C1E;
     width: 100%;
     height: 100%;
     display: flex;
+    font-family: Avenir Next, Helvetica, sans-serif;
 }
 #content{
     display: flex;
@@ -13,12 +14,13 @@ main{
     margin-top: 0;
     margin-bottom: 0;
     flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .row{
     display: inline-flex;
-    background-color: red;
     width: 100%;
-    margin-bottom: 14px;
+    margin-bottom: 15px;
 }
 #navspace{
     height: 90px;
@@ -27,4 +29,67 @@ main{
     height: 50px;
     border-radius: 25px;
     background-color: #008156;
+}
+#announce{
+    margin: auto;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+}
+#masthead{
+    display: inline-flex;
+    flex-direction: row;
+    height: 70vh;
+    min-height: 800px;
+    width: 120%;
+    align-items: center;
+    background-color: #;
+}
+#cta{
+    display: inline-flex;
+    flex-direction: column;
+    width: 40%;
+    max-width: 600px;
+    align-items: start;
+}
+#qrc{
+    display: flex;
+    flex-direction:column;
+    height: 360px;
+    width: 310px;
+    border-radius: 25px;
+    background-color: #008156;
+    justify-content: center;
+    align-items: center;
+}
+h1, h2, h3{
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+h1{
+    font-size: 40px;
+    color: white;
+}
+h3{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+#mh1{
+    font-size: 25pt;
+    color: white;
+    font-weight: 600;
+}
+#mh2{
+    font-size: 15pt;
+    color: white;
+    font-weight: 600;
+    width: auto;
+    margin: 15px;
+    margin-top: 0;
+    text-align: center;
+}
+#qrx{
+    padding-bottom: 25px;
 }
