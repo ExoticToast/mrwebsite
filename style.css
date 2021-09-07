@@ -40,8 +40,6 @@ main{
 #masthead{
     display: inline-flex;
     flex-direction: row;
-    height: 70vh;
-    min-height: 800px;
     width: 120%;
     align-items: center;
 }
@@ -101,6 +99,5 @@ h3{
     border-radius: 25px;
 }
 .medialogo{
-    flex: 1;
     margin: auto;
 }
