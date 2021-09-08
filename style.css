@@ -130,17 +130,11 @@ h3{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.cardh3{
-    flex-shrink: 1;
-}
-.cardh2{
-    flex-shrink: 1;
-}
 .cardp{
     font-size: 20px;
     color: white;
     margin-bottom: 0;
-    margin-top: 15px;
+    margin-top: 25px;
     flex-shrink: 1;
 }
 .squares{
