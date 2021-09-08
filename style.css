@@ -69,6 +69,10 @@ h1{
     font-size: 40px;
     color: white;
 }
+h2{
+    font-size: 35px;
+    color: white;
+}
 h3{
     font-size: 20px;
     color: white;
@@ -103,25 +107,41 @@ h3{
     margin: auto;
 }
 .card{
-    width: 100%;
-    height: 500px;
+    width: calc(100% - 50px);
     border-radius: 25px;
     display: flex;
     flex-direction: row;
     background-color:black;
     border-radius: 25px;
-    overflow: hidden;
+    padding: 25px;
 }
 .cardpic{
     width: 50%;
     height: 100%;
-    background-color: #222;
+    background-color: black;
 
 }
 .cardblurb{
+    display: inline-flex;
     width: 50%;
-    height: 100%;
-    background-color:#111;
+    background-color:black;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.cardh3{
+    flex-shrink: 1;
+}
+.cardh2{
+    flex-shrink: 1;
+}
+.cardp{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 15px;
+    flex-shrink: 1;
 }
 .squares{
     width: 100%;
