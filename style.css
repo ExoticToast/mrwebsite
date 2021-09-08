@@ -145,14 +145,14 @@ h3{
 }
 .squares{
     width: 100%;
-    height: calc(110px + 25vw);
+    height: 400px;
     max-height: 700px;
     flex-direction: row;
     overflow: hidden;
     justify-content: space-between
 }
 .sqsingle{
-    width: calc(110px + 25vw);
+    width: calc(50% - 40px);
     background-color: black;
     border-radius: 25px;
 }
