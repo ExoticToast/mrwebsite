@@ -1,5 +1,6 @@
 body {
     --main-bg: #1C1C1E;
+    --main-bg-opaque: #1C1C1E88;
     background-color: var(--main-bg);
 }
 main{
@@ -22,16 +23,7 @@ main{
     width: 100%;
     margin-bottom: 80px;
 }
-#navspace{
-    position: sticky;
-    top: 0;
-    /* background-color: var(--main-bg); */
-    backdrop-filter: blur(15px);
-    height: 90px;
-    margin-bottom: 15px;
-    width: calc(500px + 50vw);
-    max-width: 1200px;
-}
+
 .nav-container {
     position: -webkit-sticky;
     position: -moz-sticky;
@@ -39,10 +31,11 @@ main{
     position: -ms-sticky;
     position: sticky;
     top: 0;
-    backdrop-filter: blur(15px);
-    height: 90px;
+    -webkit-backdrop-filter: saturate(70%) blur(15px);
+    backdrop-filter: saturate(70%) blur(15px);
     margin-bottom: 15px;
-    transition: height 100ms ease-in;
+    height: 90px;
+    background-color: var(--main-bg-opaque);
 }
 .nav {
     width: calc(500px + 50vw);
