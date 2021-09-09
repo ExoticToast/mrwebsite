@@ -34,7 +34,9 @@ main{
     -webkit-backdrop-filter: saturate(70%) blur(15px);
     backdrop-filter: saturate(70%) blur(15px);
     margin-bottom: 15px;
+    margin: 0;
     height: 90px;
+    width: 100%;
     background-color: var(--main-bg-opaque);
 }
 .nav {
