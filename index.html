@@ -4,8 +4,14 @@
 </head>
 <body>
     <main>
+        <nav id="nav" class="nav-container">
+            <div class="nav">
+                <div class="nav-inner">
+                    <img src="assets/max.svg" height="30" />
+                </div>
+            </div>
+        </nav>
         <div id="content">
-            <div class="row" id="navspace"></div>
             <div class="row" id="r0">
                 <div id="announce">🎉 ANNOUNCEMENT: We raised $3M to empower people to earn extraordinary benefits from everyday spend.</div>
             </div>
@@ -382,10 +388,33 @@
                 </div>
                 <div class="cardpic"></div>
             </div>
+            <div class="card" id="info2" style="background-color: #008156; display: block;">
+                <h2 class="cardh2" style="text-align: center; margin-bottom: 30px;">Security and Privacy</h3>
+                <div style="display: flex; flex-direction: row; width: calc(100% - 160px); align-items: center; padding: 0px 80px;">
+                    <div style="width: 150px; height: 150px; border-radius: 75px; background-color: #84DBAB44;"></div>
+                    <div style="margin-left: 30px;">
+                        <h2 style="font-size: 32px;">We don't access card numbers.</h2>
+                        <h3>We don’t ask for your credit card number or access your card number when you connect an account.</h3>
+                    </div>
+                </div>
+            </div>
             <div class="row squares" id="squares1">
                 <div class="sqsingle" id="sq1a"></div>
                 <div class="sqsingle" id="sq1b"></div>
             </div>
         </div>
+        <div class="row">
+            <div style="padding: 60px; background-color: #008156; width: 100%;"></div>
+        </div>
     </main>
+    <script>
+        const nav = document.getElementById('nav');
+        document.addEventListener('scroll', e => {
+            if(window.scrollY > 0) {
+                nav.style.height = '60px';
+            } else {
+                nav.style.height = '80px';
+            }
+        });
+    </script>
 </body>
