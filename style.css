@@ -8,7 +8,7 @@ main{
     width: 100%;
     font-family: Avenir Next, Helvetica, sans-serif;
 }
-#content{
+.content{
     width: calc(500px + 50vw);
     max-width: 1200px;
     background-color: var(--main-bg);
@@ -307,4 +307,9 @@ h3{
     background-color:lightsteelblue;
     border-radius: 25px;
     margin: 25px;
+}
+#privacy{
+    height: 300px;
+    background-color: blue;
+    width: 100%;
 }
