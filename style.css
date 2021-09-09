@@ -216,4 +216,35 @@ h3{
 #hiring{
     display: flex;
     flex-direction: column;
+    background-color: black;
+    border-radius: 25px;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#hiringh2{
+    margin: 100px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#hiringp{
+    color: white;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+#hiringb{
+    margin-bottom: 25px;
+}
+.buttons{
+    height: 50px;
+    color: white;
+    background-color: #008156;
+    border-radius: 25px;
+    padding: 15px;
+    border-width: 0px;
+}
+.buttons:hover{
+    box-shadow: 1px 1px white, 1px -1px white, -1px 1px white, -1px -1px white;
 }
