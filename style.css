@@ -38,6 +38,7 @@ main{
     height: 90px;
     width: 100%;
     background-color: var(--main-bg-opaque);
+    z-index: 3;
 }
 .nav {
     width: calc(500px + 50vw);
@@ -309,7 +310,61 @@ h3{
     margin: 25px;
 }
 #privacy{
-    height: 300px;
-    background-color: blue;
+    height: 250px;
     width: 100%;
+    overflow: hidden;
+    display: flex;
+    margin-bottom:0;
+}
+#contentpriv{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    z-index: 2;
+    background: none;
+}
+#privhalf1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-width: 50%;
+    flex: 1;
+}
+#privh3{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    color:#444;
+}
+#privhalf2{
+    height: 80%;
+    background-color: green;
+    overflow: hidden;
+    flex:1;
+    overflow: visible;
+    align-self: flex-end;
+}
+#thing{
+    width: 800px;
+    height: 100%;
+    background:violet;
+}
+#datewhite{
+    position: absolute;
+    height: 53px;
+    width: 100%;
+    background-color: white;
+    align-self: flex-end;
+    z-index: 0;
+}
+#privblurb{
+    background: white;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    height: 1000px;
+}
+#privblurbcontent{
+    background: none;
 }
