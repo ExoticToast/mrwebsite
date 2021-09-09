@@ -378,3 +378,83 @@ h3{
     font-size: 22px;
     font-weight: 400;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+#press{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    margin-bottom:0;
+}
+#contentpress{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    z-index: 2;
+    background: none;
+}
+#pressinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#presslinks{
+    height: 53px;
+    width: 500px;
+    background-color:sandybrown;
+    margin-top: 15px;
+}
+
+
+
+#pressh3{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    color:#444;
+}
+#pressimage{
+    height: 800px;
+    width: 100%;
+    background-color:sienna;
+    margin-top: 15px;
+}
+#thingpress{
+
+}
+#pressdatewhite{
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    background-color: white;
+    align-self: flex-end;
+    z-index: 0;
+}
+#pressblurb{
+    background: white;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    padding-bottom: 50px;
+}
+#pressblurbcontent{
+    background: none;
+}
+.pbc{
+    margin: 50px;
+    margin-left: 170px;
+    margin-right: 170px;
+    font-size: 22px;
+    font-weight: 400;
+}
