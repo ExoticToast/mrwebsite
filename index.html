@@ -409,11 +409,19 @@
     </main>
     <script>
         const nav = document.getElementById('nav');
+        if(window.scrollY > 0) {
+            nav.style.height = '70px';
+        } else {
+            nav.style.height = '90px';
+        }
+
+        nav.style.transition = 'height 150ms ease-in';
+
         document.addEventListener('scroll', e => {
             if(window.scrollY > 0) {
-                nav.style.height = '60px';
+                nav.style.height = '70px';
             } else {
-                nav.style.height = '80px';
+                nav.style.height = '90px';
             }
         });
     </script>
